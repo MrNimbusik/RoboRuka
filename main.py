@@ -17,7 +17,7 @@ HTML_TEMPLATE = '''
 <style>
     * {
     box-sizing: border-box;
-    }
+}
 
 body {
     height: 100vh;
@@ -32,7 +32,7 @@ body {
         #001130 35%,
         #000d28 70%,
         #0a1825 100%);
-    }
+}
 
 .card {
     width: min(420px, 100%);
@@ -43,57 +43,57 @@ body {
     text-align: center;
 }
 
-    .button {
-      background:
-        radial-gradient(circle,
-          rgba(15, 47, 153, 0.541) 18%,
-          rgba(9, 39, 90, 0.95) 45%);
-      width: 240px;
-      height: 90px;
-      border: none;
-      border-radius: 20px;
-      font-size: 30px;
-      color: white;
-      cursor: pointer;
-      border: 2px solid #b2d73d;
-      transition: transform 0.15s, opacity 0.15s;
-    }
+.button {
+    background:
+    radial-gradient(circle,
+    rgba(15, 47, 153, 0.541) 18%,
+    rgba(9, 39, 90, 0.95) 45%);
+    width: 240px;
+    height: 90px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #b2d73d;
+    transition: transform 0.15s, opacity 0.15s;
+}
 
-    .button:active {
-      transform: scale(0.96);
-    }
+.button:active {
+    transform: scale(0.96);
+}
 
-    .button:disabled {
-      opacity: 0.6;
-      cursor: wait;
-    }
+.button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
 
-    .status {
-      margin-top: 18px;
-      font-size: 28px;
-      color: white;
-      text-align: center;
-    }
+.status {
+    margin-top: 18px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
 
-    dd {
-      display: block;
-      margin-inline-start: 0px;
-      margin-top: 10px;
-      unicode-bidi: isolate;
-      justify-content: center;
-    }
+dd {
+    display: block;
+    margin-inline-start: 0px;
+    margin-top: 10px;
+    unicode-bidi: isolate;
+    justify-content: center;
+}
 
-    .date {
-      margin-top: 16px;
-      font-size: 14px;
-      color: #bdbdbd;
-    }
+.date {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #bdbdbd;
+}
 
-    .error {
-      margin-top: 16px;
-      font-size: 14px;
-      color: #ff3b30;
-    }
+.error {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #ff3b30;
+}
 
 .off-text {
     color: #ff3b30;
